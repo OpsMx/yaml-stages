@@ -9,7 +9,8 @@ if [[ -z "$stages" ]]; then
   exit 1
 else 
   git clone https://github.com/OpsMx/yaml-stages.git 2> /tmp/tmp.log
-  cd yaml-stages/stages
+  reponame=yaml-stages
+  cd $reponame/stages
   rm -rf ../list
   touch ../list
   IFS=","
@@ -78,5 +79,5 @@ else
   cat ../../complete_pipeline.json
   echo "============================================================="
   cd ../../
-  rm -rf pipeline-json
+  rm -rf $reponame
 fi
