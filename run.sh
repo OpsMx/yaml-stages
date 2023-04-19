@@ -9,7 +9,7 @@ if [[ -z "$stages" ]]; then
   exit 1
 else 
   git clone https://github.com/OpsMx/yaml-stages.git 2> /tmp/tmp.log
-  cd pipeline-json/stages
+  cd yaml-stages/stages
   rm -rf ../list
   touch ../list
   IFS=","
