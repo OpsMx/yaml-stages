@@ -1,0 +1,9 @@
+{
+  "keepWaitingPipelines": false,
+  "lastModifiedBy": "mahesh.kota@opsmx.io",
+  "limitConcurrent": true,
+  "schema": "1",
+  "spelEvaluator": "v4",
+  "stages": [],
+  "triggers": []
+}

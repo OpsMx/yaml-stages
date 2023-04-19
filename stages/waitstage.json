@@ -1,0 +1,6 @@
+{
+  "isNew": true,
+  "name": "Wait",
+  "type": "wait",
+  "waitTime": 11
+}

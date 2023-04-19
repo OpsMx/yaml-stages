@@ -1,0 +1,8 @@
+{
+  "failPipeline": true,
+  "isNew": true,
+  "judgmentInputs": [],
+  "name": "Manual Judgment",
+  "notifications": [],
+  "type": "manualJudgment"
+}
